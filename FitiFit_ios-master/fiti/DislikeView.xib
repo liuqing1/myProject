@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+        </mutableArray>
+        <mutableArray key="Montserrat-SemiBold.otf">
+            <string>Montserrat-SemiBold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DislikeView" customModule="fiti" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="410"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The trainer wasn't on time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kE-MU-FZP">
+                    <rect key="frame" x="18" y="73" width="284" height="22"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ojn-FM-js2">
+                    <rect key="frame" x="0.0" y="0.0" width="310" height="62"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sFj-oj-ky2">
+                            <rect key="frame" x="27" y="48" width="257" height="32"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHAT DIDN'T YOU LIKE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iza-q5-Ze2">
+                            <rect key="frame" x="0.0" y="20" width="310" height="22"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1843137255" green="0.58431372550000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryV-Rj-p48">
+                    <rect key="frame" x="0.0" y="362" width="310" height="48"/>
+                    <color key="backgroundColor" red="0.1843137255" green="0.58431372550000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="15"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didPressOK:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vsr-ta-eOQ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The trainer wasn't on time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kM-fU-OJw">
+                    <rect key="frame" x="18" y="123" width="284" height="22"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The trainer wasn't on time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UC2-EA-440">
+                    <rect key="frame" x="18" y="173" width="284" height="22"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The trainer wasn't on time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x9r-XN-w9w">
+                    <rect key="frame" x="18" y="223" width="284" height="22"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The trainer wasn't on time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fE-sw-Fab">
+                    <rect key="frame" x="18" y="274" width="284" height="22"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The trainer wasn't on time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IP3-MX-3ln">
+                    <rect key="frame" x="18" y="325" width="284" height="22"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jn9-Hj-P3T" userLabel="Line">
+                    <rect key="frame" x="18" y="109" width="292" height="1"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sLF-Py-Ayr" userLabel="Line">
+                    <rect key="frame" x="9" y="158" width="292" height="1"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YxO-Ad-r2d" userLabel="Line">
+                    <rect key="frame" x="9" y="209" width="292" height="1"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aE5-Ro-dTc" userLabel="Line">
+                    <rect key="frame" x="9" y="258" width="292" height="1"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ikc-vE-cEi" userLabel="Line">
+                    <rect key="frame" x="9" y="308" width="292" height="1"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TvM-7O-w9I">
+                    <rect key="frame" x="18" y="65" width="283" height="42"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsh-CR-X8X">
+                    <rect key="frame" x="19" y="113" width="283" height="42"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctc-Or-iF9">
+                    <rect key="frame" x="19" y="163" width="283" height="42"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvK-9l-IfQ">
+                    <rect key="frame" x="19" y="213" width="283" height="42"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e9-WL-WiV">
+                    <rect key="frame" x="19" y="263" width="283" height="42"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeG-eT-d0g">
+                    <rect key="frame" x="19" y="315" width="283" height="42"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="okBtn" destination="ryV-Rj-p48" id="GnN-bW-uy6"/>
+                <outlet property="titleLabel" destination="Iza-q5-Ze2" id="zlx-vM-LXp"/>
+                <outletCollection property="reasonLabels" destination="4kE-MU-FZP" collectionClass="NSMutableArray" id="W9I-E5-nMs"/>
+                <outletCollection property="reasonLabels" destination="7kM-fU-OJw" collectionClass="NSMutableArray" id="vmy-Zj-8j0"/>
+                <outletCollection property="reasonLabels" destination="UC2-EA-440" collectionClass="NSMutableArray" id="yxA-97-Cah"/>
+                <outletCollection property="reasonLabels" destination="x9r-XN-w9w" collectionClass="NSMutableArray" id="DBU-IJ-bw5"/>
+                <outletCollection property="reasonLabels" destination="1fE-sw-Fab" collectionClass="NSMutableArray" id="9q2-yN-H8z"/>
+                <outletCollection property="reasonLabels" destination="IP3-MX-3ln" collectionClass="NSMutableArray" id="SPJ-aa-EOd"/>
+                <outletCollection property="reasonButtons" destination="TvM-7O-w9I" collectionClass="NSMutableArray" id="KfX-kS-anQ"/>
+                <outletCollection property="reasonButtons" destination="jsh-CR-X8X" collectionClass="NSMutableArray" id="sNH-lp-mJ8"/>
+                <outletCollection property="reasonButtons" destination="ctc-Or-iF9" collectionClass="NSMutableArray" id="E9G-N3-nhv"/>
+                <outletCollection property="reasonButtons" destination="BvK-9l-IfQ" collectionClass="NSMutableArray" id="add-MU-LdY"/>
+                <outletCollection property="reasonButtons" destination="8e9-WL-WiV" collectionClass="NSMutableArray" id="yVn-DP-VxY"/>
+                <outletCollection property="reasonButtons" destination="zeG-eT-d0g" collectionClass="NSMutableArray" id="TFn-wU-FlB"/>
+            </connections>
+            <point key="canvasLocation" x="96" y="143"/>
+        </view>
+    </objects>
+</document>

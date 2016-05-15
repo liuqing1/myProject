@@ -1,0 +1,47 @@
+{
+	"shanghai": [
+		{"en_name": "Huangpu","zh_name": "黄浦区"},
+		{"en_name": "Xuhui","zh_name": "徐汇区"},
+		{"en_name": "Changning","zh_name": "长宁区"},
+		{"en_name": "Jing'an","zh_name": "静安区"},
+		{"en_name": "Putuo","zh_name": "普陀区"},
+		{"en_name": "Hongkou","zh_name": "虹口区"},
+		{"en_name": "Yangpu","zh_name": "杨浦区"},
+		{"en_name": "Minhang","zh_name": "闵行区"},
+		{"en_name": "Baoshan","zh_name": "宝山区"},
+		{"en_name": "Jiading","zh_name": "嘉定区"},
+		{"en_name": "Pudong","zh_name": "浦东新区"},
+		{"en_name": "Jinshan","zh_name": "金山区"},
+		{"en_name": "Songjiang","zh_name": "松江区"},
+		{"en_name": "Qingpu","zh_name": "青浦区"},
+		{"en_name": "Fengxian","zh_name": "奉贤区"},
+		{"en_name": "Chongming","zh_name": "崇明县"}
+	],
+	"beijing": [
+		{"en_name": "Dongcheng", "zh_name": "东城区"},
+		{"en_name": "Xicheng", "zh_name": "西城区"},
+		{"en_name": "Chaoyang", "zh_name": "朝阳区"},
+		{"en_name": "Fengtai", "zh_name": "丰台区"},
+		{"en_name": "Shijingshan", "zh_name": "石景山区"},
+		{"en_name": "Haidian", "zh_name": "海淀区"},
+		{"en_name": "Mentougou", "zh_name": "门头沟区"},
+		{"en_name": "Fangshan", "zh_name": "房山区"},
+		{"en_name": "Tongzhou", "zh_name": "通州区"},
+		{"en_name": "Shunyi", "zh_name": "顺义区"},
+		{"en_name": "Changping", "zh_name": "昌平区"},
+		{"en_name": "Daxing", "zh_name": "大兴区"},
+		{"en_name": "Huairou", "zh_name": "怀柔区"},
+		{"en_name": "Pinggu", "zh_name": "平谷区"},
+		{"en_name": "Miyun", "zh_name": "密云区"},
+		{"en_name": "Yanqing", "zh_name": "延庆区"}
+	],
+	"hong kong": [
+		{"en_name": "Hong Kong Island", "zh_name": "香港島"},
+		{"en_name": "Kowloon", "zh_name": "九龍"},
+		{"en_name": "New Territories", "zh_name": "新界"}
+	]
+}
+
+
+
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+            <string>Montserrat-Light</string>
+            <string>Montserrat-Light</string>
+        </mutableArray>
+        <mutableArray key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SharePopupView" customModule="fiti" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sxu-5p-vyF">
+                    <rect key="frame" x="25" y="144" width="325" height="240"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARE YOUR EXPERIENCE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8G-D3-Tfy">
+                            <rect key="frame" x="0.0" y="0.0" width="325" height="60"/>
+                            <color key="backgroundColor" red="0.1843137255" green="0.58823529409999997" blue="1" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="325" id="pGY-e2-Z6G"/>
+                                <constraint firstAttribute="height" constant="60" id="ziX-7O-yDH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="pGY-e2-Z6G"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wechat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0FV-lY-js2">
+                            <rect key="frame" x="132" y="151" width="62" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="62" id="ACa-KA-2GG"/>
+                                <constraint firstAttribute="height" constant="21" id="JVp-Ly-wac"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="12"/>
+                            <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFS-Ns-H6U">
+                            <rect key="frame" x="234" y="152" width="62" height="21"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="12"/>
+                            <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAn-gj-KCo">
+                            <rect key="frame" x="126" y="206" width="73" height="26"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                            <state key="normal" title="NO, THANKS">
+                                <color key="titleColor" red="0.1843137255" green="0.58823529409999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onNoThanks:" destination="iN0-l3-epB" eventType="touchUpInside" id="Cpk-MA-JVf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvG-ev-ujW">
+                            <rect key="frame" x="35" y="100" width="52" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="5Xl-go-1L2"/>
+                                <constraint firstAttribute="width" constant="52" id="9IL-Tl-Jx0"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="weiboIcon"/>
+                            <connections>
+                                <action selector="onWeibo:" destination="iN0-l3-epB" eventType="touchUpInside" id="8ED-ba-01M"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ni7-UW-vct">
+                            <rect key="frame" x="239" y="96" width="52" height="51"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="51" id="bYf-Vc-gNH"/>
+                                <constraint firstAttribute="width" constant="52" id="f8r-zF-uTA"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="facebookIcon"/>
+                            <connections>
+                                <action selector="onFacebook:" destination="iN0-l3-epB" eventType="touchUpInside" id="697-FY-IyR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWH-XI-jx8">
+                            <rect key="frame" x="137" y="95" width="52" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="aGa-6m-AIi"/>
+                                <constraint firstAttribute="width" constant="52" id="qsb-A8-dgV"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="weChatIcon"/>
+                            <connections>
+                                <action selector="onWeChat:" destination="iN0-l3-epB" eventType="touchUpInside" id="Jj6-n7-cU2"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weibo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vn-Eb-fRf">
+                            <rect key="frame" x="30" y="151" width="62" height="21"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="12"/>
+                            <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="QWH-XI-jx8" firstAttribute="centerY" secondItem="bvG-ev-ujW" secondAttribute="centerY" id="017-SL-3fb"/>
+                        <constraint firstItem="QWH-XI-jx8" firstAttribute="top" secondItem="a8G-D3-Tfy" secondAttribute="bottom" constant="35" id="0AV-w9-02Z"/>
+                        <constraint firstItem="a8G-D3-Tfy" firstAttribute="leading" secondItem="Sxu-5p-vyF" secondAttribute="leading" id="3rf-bR-awQ"/>
+                        <constraint firstItem="QWH-XI-jx8" firstAttribute="leading" secondItem="bvG-ev-ujW" secondAttribute="trailing" constant="50" id="6QT-dP-AUv"/>
+                        <constraint firstItem="a8G-D3-Tfy" firstAttribute="leading" secondItem="Sxu-5p-vyF" secondAttribute="leading" id="7e9-1N-bWR"/>
+                        <constraint firstItem="0FV-lY-js2" firstAttribute="top" secondItem="QWH-XI-jx8" secondAttribute="bottom" constant="4" id="7vf-Ra-afq"/>
+                        <constraint firstItem="HFS-Ns-H6U" firstAttribute="centerX" secondItem="Ni7-UW-vct" secondAttribute="centerX" id="9gq-be-lYO"/>
+                        <constraint firstItem="HFS-Ns-H6U" firstAttribute="height" secondItem="7vn-Eb-fRf" secondAttribute="height" id="Agp-MK-bLF"/>
+                        <constraint firstItem="HFS-Ns-H6U" firstAttribute="top" secondItem="Ni7-UW-vct" secondAttribute="bottom" constant="5" id="GIq-HU-zDY"/>
+                        <constraint firstAttribute="trailing" secondItem="a8G-D3-Tfy" secondAttribute="trailing" id="Hkk-Wv-oat"/>
+                        <constraint firstItem="QWH-XI-jx8" firstAttribute="centerY" secondItem="bvG-ev-ujW" secondAttribute="centerY" id="IPQ-tK-gHM"/>
+                        <constraint firstItem="a8G-D3-Tfy" firstAttribute="top" secondItem="Sxu-5p-vyF" secondAttribute="top" id="Ic1-pF-Tvb"/>
+                        <constraint firstItem="7vn-Eb-fRf" firstAttribute="centerX" secondItem="bvG-ev-ujW" secondAttribute="centerX" id="P0q-ia-peX"/>
+                        <constraint firstItem="a8G-D3-Tfy" firstAttribute="width" secondItem="Sxu-5p-vyF" secondAttribute="width" id="Tzi-M8-yV0"/>
+                        <constraint firstAttribute="height" constant="240" id="UAI-IE-ISy"/>
+                        <constraint firstItem="0FV-lY-js2" firstAttribute="width" secondItem="7vn-Eb-fRf" secondAttribute="width" id="bBb-5O-Jee"/>
+                        <constraint firstItem="7vn-Eb-fRf" firstAttribute="top" secondItem="bvG-ev-ujW" secondAttribute="bottom" constant="9" id="cDF-i9-NcP"/>
+                        <constraint firstItem="Ni7-UW-vct" firstAttribute="centerY" secondItem="bvG-ev-ujW" secondAttribute="centerY" id="gne-Ee-PF3"/>
+                        <constraint firstAttribute="bottom" secondItem="cAn-gj-KCo" secondAttribute="bottom" constant="8" id="hmD-Xs-O50"/>
+                        <constraint firstItem="Ni7-UW-vct" firstAttribute="leading" secondItem="QWH-XI-jx8" secondAttribute="trailing" constant="50" id="jLe-gC-kih"/>
+                        <constraint firstItem="cAn-gj-KCo" firstAttribute="centerX" secondItem="Sxu-5p-vyF" secondAttribute="centerX" id="jY3-HI-1GD"/>
+                        <constraint firstItem="QWH-XI-jx8" firstAttribute="centerY" secondItem="bvG-ev-ujW" secondAttribute="centerY" id="mZr-7Q-YGx"/>
+                        <constraint firstItem="0FV-lY-js2" firstAttribute="centerX" secondItem="Sxu-5p-vyF" secondAttribute="centerX" id="myW-X9-kwc"/>
+                        <constraint firstAttribute="trailing" secondItem="a8G-D3-Tfy" secondAttribute="trailing" id="o82-hd-SNK"/>
+                        <constraint firstItem="0FV-lY-js2" firstAttribute="height" secondItem="7vn-Eb-fRf" secondAttribute="height" id="oGd-Nn-m8b"/>
+                        <constraint firstItem="QWH-XI-jx8" firstAttribute="centerX" secondItem="Sxu-5p-vyF" secondAttribute="centerX" id="r71-Xq-0cf"/>
+                        <constraint firstAttribute="width" constant="325" id="sIk-L8-qXS"/>
+                        <constraint firstItem="HFS-Ns-H6U" firstAttribute="width" secondItem="7vn-Eb-fRf" secondAttribute="width" id="sru-p3-RcB"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7e9-1N-bWR"/>
+                            <exclude reference="o82-hd-SNK"/>
+                            <exclude reference="IPQ-tK-gHM"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Sxu-5p-vyF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="W2d-Dg-961"/>
+                <constraint firstItem="Sxu-5p-vyF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="144" id="bJn-vz-ndW"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="btnNoThanks" destination="cAn-gj-KCo" id="IV3-in-yns"/>
+                <outlet property="lblFacebook" destination="HFS-Ns-H6U" id="d8h-lA-yUp"/>
+                <outlet property="lblShareExperience" destination="a8G-D3-Tfy" id="RaJ-G3-gdA"/>
+                <outlet property="lblWechat" destination="0FV-lY-js2" id="aYS-5S-D54"/>
+                <outlet property="lblWeibo" destination="7vn-Eb-fRf" id="yHr-Jc-Ofc"/>
+                <outlet property="popupView" destination="Sxu-5p-vyF" id="sb0-5K-BSC"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="facebookIcon" width="52" height="52"/>
+        <image name="weChatIcon" width="53" height="53"/>
+        <image name="weiboIcon" width="52" height="43"/>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FitiLoadingHUDView" customModule="fiti" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qx-qg-Jm0">
+                    <rect key="frame" x="8" y="392" width="359" height="73"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="73" id="hfU-jH-07J"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="skill-aerial-yoga-active" translatesAutoresizingMaskIntoConstraints="NO" id="Jye-7B-K4k" userLabel="skill">
+                    <rect key="frame" x="137" y="284" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Eay-hG-MnI"/>
+                        <constraint firstAttribute="width" constant="100" id="MrC-67-qTm"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59973404255319152" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Jye-7B-K4k" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="09J-jt-a2L"/>
+                <constraint firstAttribute="trailing" secondItem="6qx-qg-Jm0" secondAttribute="trailing" constant="8" id="B2e-bG-ZJf"/>
+                <constraint firstItem="6qx-qg-Jm0" firstAttribute="top" secondItem="Jye-7B-K4k" secondAttribute="bottom" constant="8" id="Ltu-mO-1iU"/>
+                <constraint firstItem="6qx-qg-Jm0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Pci-wy-Q8J"/>
+                <constraint firstItem="Jye-7B-K4k" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="S0w-iy-tPQ"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="icon" destination="Jye-7B-K4k" id="TA7-2g-rq2"/>
+                <outlet property="lblText" destination="6qx-qg-Jm0" id="uad-VB-m87"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="skill-aerial-yoga-active" width="240" height="240"/>
+    </resources>
+</document>

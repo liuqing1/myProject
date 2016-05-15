@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChooseDistrictCell" rowHeight="74" id="gHY-XL-TJI" customClass="ChooseDistrictCell" customModule="fiti" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gHY-XL-TJI" id="sCm-G4-k5Z">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRo-lQ-rha">
+                        <rect key="frame" x="15" y="26" width="290" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="gzL-HU-FeE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                        <color key="textColor" red="0.792156862745098" green="0.792156862745098" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="district-divider" translatesAutoresizingMaskIntoConstraints="NO" id="w8k-Kq-9Qm">
+                        <rect key="frame" x="0.0" y="72" width="320" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="w4a-ox-Uy7"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="w8k-Kq-9Qm" secondAttribute="bottom" constant="-8" id="0b8-ZD-o1y"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="w8k-Kq-9Qm" secondAttribute="trailing" constant="-8" id="TlO-t2-YQY"/>
+                    <constraint firstItem="lRo-lQ-rha" firstAttribute="leading" secondItem="sCm-G4-k5Z" secondAttribute="leadingMargin" constant="7" id="Y3C-lU-3RW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lRo-lQ-rha" secondAttribute="bottom" constant="18" id="aHo-nO-MIB"/>
+                    <constraint firstItem="lRo-lQ-rha" firstAttribute="centerX" secondItem="sCm-G4-k5Z" secondAttribute="centerX" id="bsC-gE-rW2"/>
+                    <constraint firstItem="lRo-lQ-rha" firstAttribute="centerY" secondItem="sCm-G4-k5Z" secondAttribute="centerY" id="neJ-eu-SkI"/>
+                    <constraint firstItem="lRo-lQ-rha" firstAttribute="top" secondItem="sCm-G4-k5Z" secondAttribute="topMargin" constant="18" id="snr-H2-dGR"/>
+                    <constraint firstItem="w8k-Kq-9Qm" firstAttribute="leading" secondItem="sCm-G4-k5Z" secondAttribute="leadingMargin" constant="-8" id="uKY-HU-eJD"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lRo-lQ-rha" secondAttribute="trailing" constant="7" id="xoD-N3-eYU"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="neJ-eu-SkI"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="locationLabel" destination="lRo-lQ-rha" id="6Cg-e2-Rd6"/>
+            </connections>
+            <point key="canvasLocation" x="240" y="322"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="district-divider" width="257" height="1"/>
+    </resources>
+</document>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AliPayPrivateKey</key>
+	<string>MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBANCZkRGYV1NKSvjs
+BRJrfYXDdkrWwM59ZVbkpYflmDSY8BJ49mNBvGhRd3Qn8zHWXoDnoW5AvUqu6r/s
+vELQwVjmZwLVkpisYDncIMNaSnwYx9Dx9vGp1kwUH09ZXP6VG6cqEZYSpxnAnXXd
+UQkTmW4s40ppq9EL1nGPij9Or8YzAgMBAAECgYAddUJWUMQsP/acdoA03LcqN7Mx
+2Gf8ARtZjQqPSW4YJ2znvutUkwjvVmnfHnEqnZJU8+EJN91DebYvClh/uwlCqmBh
+I99p1N22U3KiaJVHp8pfH3I5Yifm/LVVbkHHdsefx1zJ/a2ox33myp126sMYV7ET
+Ytx3Qq70TvYpB/x7kQJBAO8kygGAjnu96/c4nKJuC6/f/wWZ1iD3n0A7qM3semLA
+SOcfdtN2MrDVTP3AaYOJAVo44S4MqJxdkdoVgYnmnxkCQQDfTaGu6CRZayS7B5Pq
+rrWWWfNXrX6MrdmX8IlfutIhEQdE1rNUVV/aEtX1ts7bN8+iBsu08hvtvMf6bcxz
+1hUrAkEA3kkO76iESGb3z7sydRTfDiKiVJ1y2P/yae1KceaOt/3Nhe/MLrCeW5pY
+z0ErkpUlyaw3OuuPSpD7AoCdAQZ5+QJAEK6cBZUSIhv/AnnucvnaVwEhTMuJSLk0
+KEWv/ZbXW+EJyfrAKuy13HTLxy+BBJ+Gw3P+g+YScBBKYEsTmxPDQQJAYY7MMQDs
+TXRu5sjl0EKdcbwQpx+ipe5MyLN3b/1VglEU22CLxvgwyMzMGnxkVzFLP331LhoV
+NKUn9QCPbuhFaw==</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>fiti</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>fiti</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fiti</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>weixin</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wx9e2948a012457d46</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>8</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>alipay</string>
+		<string>safepay</string>
+		<string>cydia</string>
+		<string>wechat</string>
+		<string>weixin</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>letsfiti.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>randomuser.me</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We use location to help trainees who have booked to find you.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We use location to display trainers near you &amp; trainers booked to find you.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Regular.otf</string>
+		<string>Montserrat-SemiBold.otf</string>
+		<string>Montserrat-Light.otf</string>
+		<string>Montserrat-UltraLight.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Login</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+</dict>
+</plist>

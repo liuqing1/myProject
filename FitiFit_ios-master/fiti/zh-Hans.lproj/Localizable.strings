@@ -1,0 +1,303 @@
+"app_name"="fiti";
+"Distance"="距离";
+"Rating"="评分";
+"Booking Detail"="预定详情";
+
+"%.0f mins"="%.0f分钟";
+"list_separator"="，";
+
+
+"About Me"="关于我";
+"Read more"="了解更多";
+"Make Booking"="预约";
+"Close"="关闭";
+
+"Book a session"="预约课程";
+"Book session"="预约课程";
+"Book"="预约";
+"Making booking"="正在预约";
+"Duration"="时数";
+"People"="人数";
+"Total Price"="价格";
+"Payment method"="支付方式";
+"Location"="地点";
+
+"Request to Book"="预约课程";
+"Create an account"="创建账户";
+
+
+
+"register"="注册";
+"sign_in"="登录";
+"skip_for"="跳过";
+"skip"="跳过";
+"trainer_sign_up"="想成为教练吗？登录 letsfiti.com";
+
+"email"="邮件";
+"password"="密码";
+"forgot_password"="忘记密码";
+"forgot_password_alert"="请输入手机号，然后点击按钮会收到新的密码";
+
+"hello"="您好, %@!";
+
+"please_complete"="请完善您的个人资料，用户将会更了解您并帮您发掘更多用户。";
+"complete_my_profile"="简介";
+"upload_profile_picture"="要求上传一张个人资料图片";
+
+
+"complete_your_profile"="完善你的简介";
+"age"="年龄";
+"male"="男性";
+"female"="女性";
+
+"choose_your_location"="选择你的位置";
+
+"video"="视频";
+"upload"="上传";
+"record"="录制";
+
+"uploading_video"="正在上传...";
+
+"video_tips"="视频提示";
+"video_tips1"="1. 录制视频时使用白色背景";
+"video_tips2"="2. 视频限于1分钟";
+"video_tips3"="3. 个人将对上传的视频负责.";
+"why_do"="为什么需要上传视频?";
+"trust"="飞抵健身的工作理念是基于你和用户间的信任.帮助其他人了解你。告诉他们你喜欢的事情. 你的技能是什么. “解释你的课程特殊的原因.";
+
+"select_a_video"="选定视频";
+"preview"="预览";
+
+
+
+"tell_us"="介绍你自己!";
+
+"education"="教育";
+"school"="学校";
+"admission"="专业";
+"department"="部门";
+
+"certification"="证书";
+"certification_title"="职证";
+"issued_by"="发行";
+"issued_date"="发行日期";
+"add_more"="加入更多";
+
+"add_your_skills"="添加您的运动项目";
+"please_select"="请选择您擅长的运动，第一项将会是主推项目";
+
+"price"="价格";
+"you_alone"="根据自己的运动项目，经验，评分，用户意见和要求，您负责规划自己的课程价格和时间。";
+
+"set_up"="设置 %@ 价格";
+
+
+"make_sure"="确保你有足够的手册或其他材料给培训生. 保证用于示范的或练习的工具，设备，器械及其他道具工作正常.";
+
+"add_your"="加入你的设备";
+
+"equipment"="设备";
+
+
+"location_service"="用户使用定位服务可确定你的位置.";
+
+"welcome_to"="欢迎来到飞抵";
+"now_you"="现在你可以开始了!";
+"you_can"="你可以随时编辑或完善你的简介.";
+
+"next"="下一步";
+"skip_it"="跳过它";
+
+"forgot password"="忘记密码";
+
+"phone"="手机号码";
+"slogan"="随心健身, 一键专属";
+
+"done"="完成";
+
+"getting_address"="正在搜索地址...";
+"my_location"="我的位置";
+"custom_location"="客户的位置";
+"trainers_location"="教练的位置";
+"use_my_location"="现在的位置";
+"use_custom_location"="预设位置";
+"use_trainers_location"="教练的位置";
+
+
+
+"By walk"="步行";
+"Per hour"="每小时";
+"skills"="擅长";
+"certifications"="证书";
+"experience"="经验";
+"benefit_of_x"="%@的优点";
+"muscles_worked"="肌肉锻炼项目";
+"start"="开始";
+"end"="结束";
+"accept_tcs"="我已阅读并接受此项条件和条款，课程结束后我同意使用以上支付方式支付课程";
+
+
+"skill-cat-dance"="舞蹈";
+"skill-cat-yoga"="瑜伽";
+"skill-cat-workouts"="健身";
+"skill-cat-ball"="球类";
+"skill-cat-martial"="武术";
+"skill-cat-inout"="室内外运动";
+"skill-cat-strength"="体能训练";
+
+"countdown"="%02d分：%02d秒";
+"hms"="%01d小时：%02d分：%02d秒";
+
+"map"="地图";
+
+"confirm_location"="确认位置";
+"logout"="退出";
+"cancel"="取消";
+"loading"="下载";
+"not_in_china"="不在中国?";
+"change_country"="更换国家";
+
+"not_member"="您还不是飞抵的会员，现在加入我们吧!";
+"create_a_profile"="创建简介";
+"lets_go"="开始吧";
+"bio"="教练简介";
+"min_1_skill"="你必须选择至少一项技能.";
+"video_info"="飞抵健身是您信任的伙伴，介绍下自己和分享运动的愉快经验吧！";
+
+"video_tips_info"="你需要以白色背景为底来录制视频并且上传的视频仅限于1分钟内。上传视频的人将为上传的视频负责。";
+
+"today"="今天";
+"x_days_ago"="%d 天以前";
+"x_days_hence"="在 %d 天的时间";
+"session_starts"="与%@%@的课程在开始";
+"skill_with_person_at_location"="%@ 与 %@ 在 %@";
+"session_started"="课程在 %@开始";
+"tap_here_to_start"="点击这里现在开始上课吧";
+"start_session"="开始上课";
+"see_session_details"="查阅课程详情";
+
+"request_detail"="%@ (%@小时) %@ 在 %@";
+"payment_detail"="%@, %@ (%@) 在 %@";
+"Confirming booking"="确认预定...";
+"Rejecting booking"="取消预定...";
+"Pending"="待定";
+"Accepted"="已接受";
+"Waiting for trainee"="等待用户中";
+"Starting session"="开始课程";
+"Finished"="课程结束";
+
+"Now"="现在";
+
+"Date"="日期";
+"Time"="时间";
+"activity"="运动";
+"SMS"="短信";
+"km"="%.1f公里";
+
+"Confirm Booking"="确认预约";
+"confirm_alert"="%@ (%@)与%@\n%@\n价格: %@";
+
+"China"="中国";
+"Taiwan"="台湾";
+"Hong Kong"="香港";
+
+"we_dont_share"="请选择你愿意教学的区域. 这有益于客户在搜索里找到你.你可以选定3个以上区域.";
+
+"my_requests"="我的预约";
+
+"Refresh bookings"="更新预约";
+
+"set_a_price"="为您的课程定价，以每人每小时计算，您稍后还可针对不同运动项目设定不同价格。";
+"by_drive"="驾车";
+
+"pay_now"="支付课程";
+"pay_none"="支付方式不支持";
+"pay_title"="付款";
+"pay_noapp"="很抱歉，你必须下载支付宝才能支付你的课程";
+"pay_failed"="很抱歉，我们不接受此次付款，请再次尝试。你必须先支付此项课程才能选择其他新的课程。";
+"pay_block"="你必须先支付此项课程才能选择其他新的课程。";
+"pay_success"="感谢您的付款";
+"pay_alipay"="现在支付";
+
+"pay_now_overdue"="点击这里进行完成的课程支付。";
+"pay_free"="本课程是免费的。 谢谢!";
+
+"no_trainers"="没有可预约的教练";
+"no_trainers_why"="帮助";
+"no_trainers_alert"="目前附近没有教练。";
+"no_trainers_alert_msg"="虽然目前没有教练，你可以为未来的课程试找教练";
+"Enter verification code"="输入验证码";
+"Mobile Verification"="手机验证";
+
+"pick_city"="选择你的城市。这将帮助我们找到你附近的教练。";
+"pick_district"="选择你的地区。这将帮助我们找到你附近的教练。";
+
+"add_your_skills_trainee"="请选择你有兴趣的运动。";
+"pick_your_skills"="请选择你的兴趣";
+"Details"="详情";
+"Booking History"="预约记录";
+
+"ts-unconfirmed"="等待确认";
+"ts-confirmed"="确认";
+"ts-rejected"="教练拒绝了";
+"ts-cancelled"="取消";
+"ts-skipped"="跳过";
+"ts-withdrawn"="取消";
+"ts-expired"="教练拒绝了";
+"ts-completed"="完成（未支付）";
+"ts-inprogress"="进行中";
+"ts-pending"="进行中";
+"ts-paid"="完成";
+
+"cancel_session"="取消课程";
+"call"="打电话";
+"cancel_alert_title"="您确定吗?";
+"cancel_alert_msg"="您确认取消该课程?";
+"cancel_yes"="取消";
+"cancel_no"="不取消";
+
+"choose_profile"="选择一张简介图片";
+"Take Photo"="拍照";
+"Choose Existing"="相簿";
+
+"You cannot book a session in the past"="无法预约之前的日期";
+"Cannot book"="无法预约";
+"FAQ"="疑问解答";
+
+"video_done"="视频已上传";
+"video_autosaved"="视频已自动储存在您的相簿里，您可以现在返回或之后在您的个人资料修改。";
+
+"rate_the_session"="课程评价";
+"rate_instructions"="请评分您的教练并鼓励他，点击下方提交后将会显示在教练的简介中。";
+"share_comment"="有话要说";
+"share_experience"="分享你的经验";
+"share_weibo"="微博";
+"share_wechat"="微信";
+"share_facebook"="脸谱";
+"share_no"="不用了，谢谢";
+"submit"="提交";
+"neg_title"="哪方面不给力？";
+"neg_1"="教练不准时";
+"neg_2"="教练不够专业";
+"neg_3"="课程不出彩";
+"neg_4"="课程难度太高";
+"neg_5"="课程太简单";
+"neg_6"="不在选项中/告知飞抵";
+"give_feedback"="告知飞抵";
+"thanks_for_feedback"="感谢您的意见";
+"Trainer"="教练";
+"navigation_drawer_open"="Open";
+"navigation_drawer_close"="Close";
+
+"upload_cert"="上传证书";
+"upload_cert_intro"="请上传相关体育资格证书并等候飞抵审核 ";
+"upload_cert_error"="别急，您先上传相关证书用户才能跟您匹配寻找您的位置，";
+
+"tut_headline_1"="快完成了！";
+"tut_headline_2"=" 其他疑问？";
+"tut_body_1"="您已完成申请，审核过后我们会通知您。";
+"tut_body_2"="点击应用左上角查看疑问解答，修改您的个人资料或联系我们。";
+"tut_btn"="了解！";
+
+"Uploaded"="已上传";
+

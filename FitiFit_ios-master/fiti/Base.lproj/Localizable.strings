@@ -1,0 +1,285 @@
+"app_name"="fiti";
+"Distance"="Distance";
+"Per hour"="Per hour";
+"By walk"="By walk";
+
+"%.0f mins"="%.0f mins";
+"list_separator"=", ";
+"Booking Detail"="Session Detail";
+
+"About Me"="About Me";
+"Read more"="Read more";
+"Make Booking"="Make Booking";
+"Making booking"="Making booking";
+"Close"="Close";
+
+"Book a session"="Book a session";
+"Book session"="Book session";
+"Book"="Book";
+"Duration"="Duration";
+"People"="People";
+"Total Price"="Total Price";
+"Payment method"="Payment method";
+"Location"="Location";
+
+"Request to Book"="Request to Book";
+"Create an account"="Create an account";
+
+"register"="Sign up";
+"sign_in"="Log in";
+"skip_for"="Skip for Now";
+"skip"="Skip";
+"trainer_sign_up"="Want to be a trainer? Sign up at letsfiti.com";
+
+"email"="Email";
+"password"="Password";
+"forgot_password"="Forgot Password?";
+"forgot_password_alert"="Please enter a phone number, then press this button to receive a new password";
+
+"hello"="Hello, %@!";
+
+"please_complete"="Please complete the rest of your profile. Your profile will be shown to user. Help Fiti user to get to know you and find more customers.";
+"complete_my_profile"="Profile";
+"upload_profile_picture"="You must upload a profile picture";
+
+
+"complete_your_profile"="Complete your profile";
+"age"="Age";
+"male"="Male";
+"female"="Female";
+
+"choose_your_location"="Choose your location";
+"we_dont_share"="Please choose the districts you prefer to teach in. This helps customers find you in search. You can select up to three districts.";
+
+"video"="Video";
+"upload"="Upload";
+"record"="Record";
+"uploading_video"="Uploading Video";
+
+"video_tips"="Video Tips";
+"video_tips1"="1. You need to record the video on white background";
+"video_tips2"="2. Your video is limited to 1 minute.";
+"video_tips3"="3. You alone are responsible for uploading this video.";
+"why_do"="Why do I need to upload the video?";
+"trust"="Fiti Fitness works based on trust between you and customers. Help them get to know you. Tell them about the things you like. What’s your skill? Explain why your session is special?";
+
+"select_a_video"="Select a video";
+"preview"="Preview";
+
+
+"bio"="Bio";
+"tell_us"="Tell us about yourself to help people understand you better.";
+
+"education"="Education";
+"school"="School";
+"admission"="Admission";
+"department"="Department";
+
+"certification"="Certification";
+"certification_title"="Certification Title";
+"issued_by"="Issued by";
+"issued_date"="Issued date";
+"add_more"="Add more";
+
+"add_your_skills"="Add Your Skills";
+"please_select"="Please select the skills you can teach. The first one you choose will be shown as your primary skill.";
+
+"price"="Price";
+"you_alone"="You alone are responsible for choosing the pricing and availability. Tips are automated and based on your skills, experience, rating, comments and demand in your session.";
+
+"set_up"="Set up %@ price";
+
+"make_sure"="Make sure you have enough handouts or other materials for trainees. Ensure tools, equipment, machines, or other props for demonstration or practice are working properly.";
+
+"add_your"="Add your equipment";
+"activity"="Activity";
+"equipment"="Equipment";
+
+
+"location_service"="Location Service is required for user to locate you.";
+
+"welcome_to"="Welcome to Fiti";
+"now_you"="Now you are ready to start!";
+"you_can"="You can always Edit / Complete your information in your profile.";
+
+"next"="Next";
+"skip_it"="Skip it for now";
+
+"forgot password"="Forgot password?";
+"done"="Done";
+
+"getting_address"="Getting address...";
+"my_location"="Your current location";
+"custom_location"="Custom location";
+"trainers_location"="Trainer's location";
+"use_my_location"="Your current location";
+"use_custom_location"="Custom location";
+"use_trainers_location"="Trainer's location";
+
+"benefit_of_x"="Benefits of %@";
+
+"phone"="Phone number";
+"slogan"="Get fit, Get personal";
+"skills"="Skills";
+"certifications"="Certifications";
+"experience"="Experience";
+"muscles_worked"="Muscles worked";
+"start"="Start";
+"end"="End";
+"accept_tcs"="I have read and accept the Terms & Conditions, and agree to pay by using the above payment method after the session";
+
+"countdown"="%02dM %02dS";
+"hms"="%01dH:%02dM:%02dS";
+
+"skill-cat-dance"="Dance";
+"skill-cat-yoga"="Yoga";
+"skill-cat-workouts"="Workouts";
+"skill-cat-ball"="Ball Sports";
+"skill-cat-martial"="Martial Arts";
+"skill-cat-inout"="Recreational Sports";
+"skill-cat-strength"="Strength Training";
+
+"map"="Map";
+"confirm_location"="Confirm Location";
+"logout"="Sign out";
+"cancel"="Cancel";
+"loading"="Loading";
+"not_in_china"="Not in China?";
+"change_country"="Change Country";
+"not_member"="You are not a Fiti member yet. Join us now!";
+
+"create_a_profile"="Create a profile";
+"lets_go"="Let's go";
+"min_1_skill"="You must select at least one skill.";
+"my_requests"="My requests";
+"video_info"="Fiti Fitness is based on Trust, talk about your skills and yourself to help prospective clients know more about you!";
+
+"video_tips_info"="Record the video on a white background\nYour video is limited to 1 minute.\nYou are responsible for uploading the video.";
+
+"today"="Today";
+"x_days_ago"="%d days ago";
+"x_days_hence"="in %d days' time";
+"session_starts"="Session starts with %@ at %@";
+"skill_with_person_at_location"="%@ with %@ at %@";
+"session_started"="Session started at %@";
+"tap_here_to_start"="Tap here to start session now";
+"start_session"="Start session";
+"see_session_details"="See session details";
+
+"request_detail"="%@ (%@h) %@ at %@";
+"payment_detail"="%@, %@ (%@) at %@";
+"Confirming booking"="Confirming booking...";
+"Rejecting booking"="Rejecting booking...";
+"Pending"="Pending";
+"Accepted"="Accepted";
+"Waiting for trainee"="Waiting for trainee to start session";
+"Starting session"="Starting session";
+"Finished"="Time is up!";
+
+"Now"="Now";
+"Date"="Date";
+"Time"="Time";
+
+"km"="%.1fkm";
+"Confirm Booking"="Confirm Booking";
+"confirm_alert"="%@ (%@) with %@\n%@\nPrice: %@";
+"China"="China";
+"Taiwan"="Taiwan";
+"Hong Kong"="Hong Kong";
+
+"Refresh bookings"="Refresh bookings";
+
+"set_a_price"="Set a price for your sessions, per hour, per person. You'll be able to set different prices for different skills later.";
+"by_drive"="By drive";
+
+"pay_now"="Pay now";
+"pay_none"="No payment methods available";
+"pay_title"="Payment";
+"pay_noapp"="Sorry, you must download the Alipay app so that you are able to pay for your sessions.";
+"pay_failed"="Sorry, we couldn't process the payment. Please try again. You must pay for this session before you can schedule any new sessions";
+"pay_block"="You must pay for this session before you can schedule any new sessions";
+"pay_now_overdue"="Tap here to pay for your completed session.";
+
+"pay_success"="Thank you for your payment";
+"pay_alipay"="Alipay";
+"pay_free"="This session was free. Thank you!";
+
+"no_trainers"="No trainers available";
+"no_trainers_why"="Help";
+"no_trainers_alert"="No trainers are nearby now.";
+"no_trainers_alert_msg"="You can try searching for a trainer for a future session";
+"Enter verification code"="Enter verification code";
+"Mobile Verification"="Mobile Verification";
+
+"pick_city"="Pick your city. This will help us find trainers near you.";
+"pick_district"="Pick your district. This will help us find trainers near you.";
+
+"add_your_skills_trainee"="Select the activities you are interested in";
+"pick_your_skills"="Pick your interests";
+"Details"="Details";
+
+"Booking History"="Booking History";
+
+"ts-unconfirmed"="Awaiting confirmation";
+"ts-confirmed"="Confirmed";
+"ts-rejected"="Trainer rejected";
+"ts-cancelled"="Cancelled";
+"ts-skipped"="Missed";
+"ts-withdrawn"="Cancelled";
+"ts-expired"="Trainer rejected";
+"ts-completed"="Completed (not paid yet)";
+"ts-inprogress"="In progress";
+"ts-pending"="In progress";
+"ts-paid"="Completed";
+
+"cancel_session"="Cancel the session";
+"call"="Call";
+"cancel_alert_title"="Are you sure?";
+"cancel_alert_msg"="Are you sure you want to cancel this session?";
+"cancel_yes"="Cancel";
+"cancel_no"="Don't cancel";
+
+"choose_profile"="Choose a Profile Photo";
+"Take Photo"="Take Photo";
+"Choose Existing"="Choose Existing";
+
+"You cannot book a session in the past"="You cannot book a session in the past";
+"Cannot book"="Cannot book";
+"FAQ"="FAQ";
+
+"video_done"="Video is successfully uploaded";
+"video_autosaved"="It is autosaved in your photo library, you can go back and change the video now or anytime later in your profile.";
+
+
+"rate_the_session"="Rate the session";
+"rate_instructions"="Please rate the trainer between 1 and 5 stars and encourage him or her below, it will be shown on the trainer's profile once you submit.";
+"share_comment"="Share a comment";
+"share_experience"="SHARE YOUR EXPERIENCE";
+"share_weibo"="Weibo";
+"share_wechat"="Wechat";
+"share_facebook"="Facebook";
+"share_no"="NO, THANKS";
+"submit"="Submit";
+"neg_title"="What didn't you like?";
+"neg_1"="The trainer wasn’t on time";
+"neg_2"="The trainer wasn’t qualified";
+"neg_3"="The curriculum wasn’t good";
+"neg_4"="It was too difficult for me";
+"neg_5"="It was too easy for me";
+"neg_6"="It’s not on this list/Custom review";
+"give_feedback"="Give Feedback";
+"thanks_for_feedback"="Thank you for your feedback";
+"Trainer"="Trainer";
+"navigation_drawer_open"="Open";
+"navigation_drawer_close"="Close";
+"upload_cert"="Upload Certification";
+"upload_cert_intro"="Please upload certificates with related skills and wait for Fiti's approval.";
+"upload_cert_error"="Not so fast, please upload a certificate for each skill you selected before continuing, your approved skills help trainees to find you on Fiti.";
+
+"tut_headline_1"="You are almost ready!";
+"tut_headline_2"="Need More Help?";
+"tut_body_1"="You have submitted your application successfully, We will get back to you once your application is verified.";
+"tut_body_2"="Tap the menu icon to view the FAQ, edit your profile or contact us.";
+"tut_btn"="OK, Got it!";
+
+"Uploaded"="Uploaded";

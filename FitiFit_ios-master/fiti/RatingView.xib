@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+            <string>Montserrat-Light</string>
+        </mutableArray>
+        <mutableArray key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+        </mutableArray>
+        <mutableArray key="Montserrat-SemiBold.otf">
+            <string>Montserrat-SemiBold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RatingView" customModule="fiti" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="342"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DRX-JX-zW6">
+                    <rect key="frame" x="0.0" y="0.0" width="310" height="95"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahU-Y3-vTP">
+                            <rect key="frame" x="27" y="48" width="257" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="Uc3-07-rc7"/>
+                                <constraint firstAttribute="width" constant="257" id="ryJ-zP-YmN"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RATE THE SESSION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amD-ha-2EI">
+                            <rect key="frame" x="69" y="20" width="173" height="22"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1843137255" green="0.58431372550000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="amD-ha-2EI" firstAttribute="centerX" secondItem="DRX-JX-zW6" secondAttribute="centerX" id="1iP-9n-rQM"/>
+                        <constraint firstItem="amD-ha-2EI" firstAttribute="top" secondItem="DRX-JX-zW6" secondAttribute="top" constant="20" id="EDG-y8-SeA"/>
+                        <constraint firstItem="ahU-Y3-vTP" firstAttribute="top" secondItem="amD-ha-2EI" secondAttribute="bottom" constant="6" id="oAV-M2-dvT"/>
+                        <constraint firstItem="ahU-Y3-vTP" firstAttribute="centerX" secondItem="DRX-JX-zW6" secondAttribute="centerX" id="uGh-ZU-RyI"/>
+                        <constraint firstAttribute="height" constant="95" id="vzT-fA-L7L"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lucy Liu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Sr-sL-1aS">
+                    <rect key="frame" x="6" y="103" width="101" height="21"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                    <color key="textColor" red="0.1843137255" green="0.58431372550000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2h" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vff-go-aUJ">
+                    <rect key="frame" x="114" y="103" width="99" height="21"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                    <color key="textColor" red="0.1843137255" green="0.58431372550000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MV1-Ao-Xbc">
+                    <rect key="frame" x="216" y="103" width="87" height="21"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                    <color key="textColor" red="0.1843137255" green="0.58431372550000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mZ-ct-GvL">
+                    <rect key="frame" x="209" y="121" width="102" height="21"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSh-XC-3up">
+                    <rect key="frame" x="105" y="121" width="112" height="21"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trainer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxf-tz-KHN">
+                    <rect key="frame" x="3" y="121" width="109" height="21"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6P-yA-rLU">
+                    <rect key="frame" x="20" y="161" width="273" height="70"/>
+                    <string key="text">After leaving your rating, you will pay for the blah blah blah blah blaj basdj as da sd asd asd a sdas dasd this is now supposed to be four line</string>
+                    <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="13"/>
+                    <color key="textColor" red="0.34509803919999998" green="0.34901960780000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiG-JW-hUv" customClass="FitiButton" customModule="fiti" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="294" width="310" height="48"/>
+                    <color key="backgroundColor" red="0.1843137255" green="0.58431372550000005" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="15"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didPressOK:" destination="iN0-l3-epB" eventType="touchUpInside" id="ibB-mE-4NC"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ikh-Dc-1Ft" userLabel="Line">
+                    <rect key="frame" x="0.0" y="148" width="310" height="1"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="BRc-Qm-6IY" customClass="Hairline" customModule="fiti" customModuleProvider="target"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlP-0B-JCl" userLabel="Line">
+                    <rect key="frame" x="109" y="107" width="1" height="30"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="r5d-qy-RK8" customClass="Hairline" customModule="fiti" customModuleProvider="target"/>
+                        <constraint firstAttribute="height" constant="30" id="vyE-qj-gOm"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZpS-dn-QY1" userLabel="Line">
+                    <rect key="frame" x="210" y="107" width="1" height="29"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="YDH-HP-ERw"/>
+                        <constraint firstAttribute="width" constant="1" id="yxl-xC-SqJ" customClass="Hairline" customModule="fiti" customModuleProvider="target"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQ3-dX-eGg">
+                    <rect key="frame" x="87" y="250" width="139" height="30"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="13"/>
+                    <state key="normal" title="LEAVE A COMMENT"/>
+                    <connections>
+                        <action selector="didPressLeaveComment:" destination="iN0-l3-epB" eventType="touchUpInside" id="EmC-u2-EeQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ikh-Dc-1Ft" firstAttribute="top" secondItem="DRX-JX-zW6" secondAttribute="bottom" constant="53" id="2d5-bP-b4y"/>
+                <constraint firstItem="hlP-0B-JCl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="107" id="Cwk-XS-n70"/>
+                <constraint firstItem="ZpS-dn-QY1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="107" id="Fhi-aQ-qsz"/>
+                <constraint firstAttribute="trailing" secondItem="Ikh-Dc-1Ft" secondAttribute="trailing" id="IMt-NO-DUp"/>
+                <constraint firstAttribute="trailing" secondItem="DRX-JX-zW6" secondAttribute="trailing" id="UZ9-JP-qeJ"/>
+                <constraint firstItem="DRX-JX-zW6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XF2-BJ-Vci"/>
+                <constraint firstItem="Ikh-Dc-1Ft" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Xtv-zR-Ev9"/>
+                <constraint firstItem="DRX-JX-zW6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="awW-Ef-JpJ"/>
+                <constraint firstItem="hlP-0B-JCl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="109" id="dqv-Pf-V4j"/>
+                <constraint firstItem="ZpS-dn-QY1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="210" id="uXH-Rh-HMt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="durationLabel" destination="vff-go-aUJ" id="ux0-0g-Ty4"/>
+                <outlet property="durationTitleLabel" destination="gSh-XC-3up" id="ZpS-bh-NVK"/>
+                <outlet property="instructionsLabel" destination="a6P-yA-rLU" id="34a-fo-8FZ"/>
+                <outlet property="leaveCommentButton" destination="dQ3-dX-eGg" id="sia-0q-08e"/>
+                <outlet property="okButton" destination="hiG-JW-hUv" id="OrP-zV-AI7"/>
+                <outlet property="priceLabel" destination="MV1-Ao-Xbc" id="xly-4h-geV"/>
+                <outlet property="priceTitleLabel" destination="4mZ-ct-GvL" id="fDm-fX-d7o"/>
+                <outlet property="rateTheSessionHeaderLabel" destination="amD-ha-2EI" id="Rnb-Da-nYk"/>
+                <outlet property="starRatingContainer" destination="ahU-Y3-vTP" id="Ldr-CB-ZdK"/>
+                <outlet property="trainerLabel" destination="1Sr-sL-1aS" id="apC-Ef-XC0"/>
+                <outlet property="trainerTitleLabel" destination="Dxf-tz-KHN" id="MAr-nS-E6J"/>
+            </connections>
+            <point key="canvasLocation" x="30" y="122"/>
+        </view>
+    </objects>
+</document>

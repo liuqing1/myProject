@@ -1,0 +1,7 @@
+{
+  "ApiBase": "http://www.letsfiti.com/api/",
+  "faq_en": "http://www.letsfiti.com/en/faq",
+  "faq_zh": "http://www.letsfiti.com/zh/faq",
+  "faq_trainer_en": "http://www.letsfiti.com/en/trainerfaq",
+  "faq_trainer_zh": "http://www.letsfiti.com/zh/trainerfaq"
+}

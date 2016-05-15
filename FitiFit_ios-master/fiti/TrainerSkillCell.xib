@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrainerSkillCell" id="s4C-uM-upo" customClass="TrainerSkillCell" customModule="fiti" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mHe-oW-yPu">
+                        <rect key="frame" x="10" y="8" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="mHe-oW-yPu" secondAttribute="height" multiplier="1:1" id="SN7-ER-uzl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCl-cM-mdI">
+                        <rect key="frame" x="0.0" y="71" width="80" height="21"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="11"/>
+                        <color key="textColor" red="0.34509803921568627" green="0.34901960784313724" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="sCl-cM-mdI" firstAttribute="top" secondItem="mHe-oW-yPu" secondAttribute="top" id="0g1-xj-FWY"/>
+                <constraint firstItem="sCl-cM-mdI" firstAttribute="top" secondItem="mHe-oW-yPu" secondAttribute="bottom" constant="3" id="438-mL-n8g"/>
+                <constraint firstItem="mHe-oW-yPu" firstAttribute="leading" secondItem="s4C-uM-upo" secondAttribute="leading" constant="10" id="60h-Rg-gWJ"/>
+                <constraint firstAttribute="bottom" secondItem="sCl-cM-mdI" secondAttribute="bottom" constant="15" id="Fdo-Zq-cFd"/>
+                <constraint firstItem="mHe-oW-yPu" firstAttribute="top" secondItem="s4C-uM-upo" secondAttribute="top" constant="8" id="NG1-fq-7ym"/>
+                <constraint firstItem="sCl-cM-mdI" firstAttribute="leading" secondItem="s4C-uM-upo" secondAttribute="leading" id="Obj-Lh-X28"/>
+                <constraint firstAttribute="trailing" secondItem="sCl-cM-mdI" secondAttribute="trailing" id="iXu-Cb-FCQ"/>
+                <constraint firstAttribute="trailing" secondItem="mHe-oW-yPu" secondAttribute="trailing" constant="10" id="wML-NG-lDw"/>
+            </constraints>
+            <size key="customSize" width="84" height="107"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="0g1-xj-FWY"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="iconImgView" destination="mHe-oW-yPu" id="LCW-wv-mdD"/>
+                <outlet property="nameLabel" destination="sCl-cM-mdI" id="15K-dL-hof"/>
+            </connections>
+            <point key="canvasLocation" x="182" y="301.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
